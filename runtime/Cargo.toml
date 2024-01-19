@@ -62,7 +62,7 @@ pallet-template = { version = "4.0.0-dev", default-features = false, path = "../
 pallet-test-staking = { version = "4.0.0-dev", default-features = false, path = "../pallets/test-staking" }
 
 [build-dependencies]
-substrate-wasm-builder = { version = "5.0.0-dev", git = "https://github.com/paritytech/polkadot-sdk.git", optional = true, tag = "polkadot-v1.5.0" }
+substrate-wasm-builder = { version = "5.0.0-dev", git = "https://github.com/paritytech/polkadot-sdk.git", optional = true, tag = "polkadot-v1.6.0" }
 
 [features]
 default = ["std"]
